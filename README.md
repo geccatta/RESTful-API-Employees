@@ -16,7 +16,11 @@ This is a demo RESTful API built with Spring Boot, Spring Data JPA, and Spring D
 1. Clone the repository:
 <pre>git clone https://github.com/geccatta/RESTful-API-Employees.git
 cd RESTful-API-Employees</pre>
-2. The demo DB is included in the project along with its creditionals, so you don't need to update anything on ```application.properties```;
+2. Configure the database:
+   - Update the application.properties file with your MySQL database credentials:
+     <pre>spring.datasource.username=your_username
+     spring.datasource.password=your_password
+     spring.jpa.hibernate.ddl-auto=update</pre>
 3. Build and run: ```mvn spring-boot:run```
 4. Access the API:  ```http://localhost:8080/api/employees```
 
