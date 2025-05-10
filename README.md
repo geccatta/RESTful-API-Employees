@@ -1,7 +1,7 @@
 # REST API - Employees MS
 
 ## Summary:
-This is a demo RESTful API built with Spring Boot, Spring Data JPA, and Spring Data REST. It provides CRUD operations for managing employee records. The API is designed to be easily extendable and can serve as a backend for a CRM system or any employee management application.
+This is a demo RESTful API built with Spring Boot. It provides CRUD operations for managing employee records. The API is designed to be easily extendable and can serve as a backend for a CRM system or any employee management application.
 
 ## Used Technologies:
 1. Java 21
