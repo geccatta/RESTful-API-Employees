@@ -35,7 +35,8 @@ cd RESTful-API-Employees</pre>
 -  Passwords are now securely stored using the ***BCrypt hashing algorithm***.
 -  Implemented user roles **(EMPLOYEE, MANAGER, ADMIN)** to control access to API endpoints.
 -  CRUD operations are restricted based on assigned roles *(e.g., EMPLOYEE can only read; MANAGER can read, create and update; ADMIN has full access)*.
--  Unauthorized or unauthenticated requests receive proper HTTP responses 
+-  Unauthorized or unauthenticated requests receive proper HTTP responses.
+-  ***NOTE***: You can get the usernames for testing from `user` table in the `spring-boot-employee-sql-script/user-role-directory` directory, the password is *test123*.
 
 ## Testing the API:
 You can use tool like [Postman](https://www.postman.com/) to test the API endpoints. 
